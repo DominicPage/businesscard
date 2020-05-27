@@ -178,14 +178,14 @@ hr {
 }
 
 .skill-row {
-  width: 65%;
+  width: 55%;
   margin: 30px auto 70px auto;
   text-align: left;
   line-height: 2;
 }
 
 .welcomeMessage {
-  width: 65%;
+  width: 55%;
   margin: 50px auto 70px auto;
   text-align: center;
   line-height: 2;
@@ -200,7 +200,7 @@ hr {
 }
 
 .contactMessage {
-  width: 65%;
+  width: 55%;
   margin-left: auto;
   margin-right: auto;
 }
