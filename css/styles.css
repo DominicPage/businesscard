@@ -45,18 +45,10 @@ hr {
   margin-bottom: 90px;
 }
 
-/************* CLASS STYLES *************/
+/************* LANDING SECTION *************/
 
 .top-container {
   background-color: #3797a4;
-}
-
-.middle-container {
-  background-color: #fcf876;
-}
-
-.bottom-container {
-  background-color: #e4e4e4;
 }
 
 .introText {
@@ -75,6 +67,54 @@ hr {
   position: absolute;
 }
 
+.pImg {
+  width: 80px;
+  height: 40px;
+  position: absolute;
+  right: 18%;
+}
+
+.plane {
+  width: 100%;
+  height: auto;
+}
+
+.bImg {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  margin-left: 13%;
+  padding-top: 40px;
+}
+
+.balloon {
+  width: 100%;
+  height: auto;
+}
+
+.seagull {
+  left: 10%;
+  padding-top: 200px;
+  position: absolute;
+}
+
+.introTitle {
+  color: #e4e4e4;
+  font-weight: normal;
+  line-height: 1.5rem;
+  margin-bottom: 50px;
+}
+
+#introName {
+  margin: 90px auto 80px auto;
+}
+
+/************* INTRO SECTION *************/
+
+.middle-container {
+  background-color: #fcf876;
+}
+
 .profileImg {
   width: 200px;
   height: 200px;
@@ -90,6 +130,16 @@ hr {
   border-radius: 100px;
   margin-top: 20px;
 }
+
+.welcomeMessage {
+  width: 55%;
+  padding-top: 2%;
+  margin: 50px auto 70px auto;
+  text-align: center;
+  line-height: 2;
+}
+
+/************* SKILLS SECTION *************/
 
 .cImg {
   width: 150px;
@@ -119,15 +169,6 @@ hr {
   margin-left: auto;
 }
 
-.bImg {
-  width: 70px;
-  height: 70px;
-  position: relative;
-  margin-left: 13%;
-
-  padding-top: 40px;
-}
-
 .cImage {
   width: 100%;
   height: auto;
@@ -143,45 +184,6 @@ hr {
   height: auto;
 }
 
-.pImg {
-  width: 80px;
-  height: 40px;
-  position: absolute;
-  right: 18%;
-}
-
-.plane {
-  width: 100%;
-  height: auto;
-}
-
-.balloon {
-  width: 100%;
-  height: auto;
-}
-
-.seagull {
-  left: 10%;
-  padding-top: 200px;
-  position: absolute;
-}
-
-.contact-me {
-  padding-top: 5%;
-}
-
-.bottom-container {
-  padding-top: 30px;
-  padding-bottom: 15px;
-}
-
-.introTitle {
-  color: #e4e4e4;
-  font-weight: normal;
-  line-height: 1.5rem;
-  margin-bottom: 50px;
-}
-
 .skill-row {
   width: 55%;
   margin: 30px auto 70px auto;
@@ -189,20 +191,34 @@ hr {
   line-height: 2;
 }
 
-.welcomeMessage {
-  width: 55%;
-  padding-top: 2%;
-  margin: 50px auto 70px auto;
-  text-align: center;
-  line-height: 2;
-}
-
 .skills h2 {
   margin-top: 40px;
 }
 
+.BATitle {
+  text-align: right;
+  padding-right: 160px;
+}
+
 .bakingText {
   text-align: center;
+}
+
+/************* DEMO PROJECTS *************/
+
+.demoProjects {
+  background-color: #8ccbbe;
+  padding: 5%;
+}
+
+.demoImage {
+  width: 70%;
+}
+
+/************* CONTACT SECTION *************/
+
+.contact-me {
+  padding-top: 5%;
 }
 
 .contactMessage {
@@ -244,7 +260,12 @@ hr {
   color: #084d50;
 }
 
+/************* FOOTER SECTION *************/
+
 .bottom-container {
+  background-color: #e4e4e4;
+  padding-top: 30px;
+  padding-bottom: 15px;
   font-size: 0.75rem;
 }
 
@@ -290,26 +311,6 @@ hr {
   color: #0e7074;
 }
 
-.BATitle {
-  text-align: right;
-  padding-right: 160px;
-}
-
 .credits {
   line-height: 1rem;
-}
-
-.demoProjects {
-  background-color: #8ccbbe;
-  padding: 5%;
-}
-
-.demoImage {
-  width: 70%;
-}
-
-/************* ID STYLES *************/
-
-#introName {
-  margin: 90px auto 80px auto;
 }

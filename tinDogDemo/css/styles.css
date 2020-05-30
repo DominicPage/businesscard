@@ -6,26 +6,48 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/************ HEADERS SECTION *************/
+
+.siteHeader {
   font-family: "Montserrat", sans-serif;
   font-size: 3.5rem;
   line-height: 1.5;
-  font-weight: 900;
+  font-weight: bold;
+  text-align: left;
 }
 
-h2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
+.sectionHeader {
   font-size: 3rem;
   line-height: 1.5;
 }
 
-/*********** CLASS STYLING ***********/
+.ctaHeading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: white;
+}
 
-.container-fluid {
-  padding: 3% 15% 7%;
+/************ TITLE SECTION ************/
+
+.navbar {
+  padding-top: 0px;
 }
 
 .navbar-brand {
@@ -78,9 +100,18 @@ h2 {
   }
 }
 
-.featureRow {
-  text-align: center;
+#navbar {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 4.5rem;
 }
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+/************ FEATURE SECTION ************/
 
 .featureIcon {
   color: #ef8172;
@@ -88,9 +119,34 @@ h2 {
 }
 
 .featureIcon:hover {
-  padding-top: 50px;
-  padding-bottom: 25px;
   color: #ff4c68;
+}
+
+.featureTitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.featureText {
+  color: #8f8f8f;
+}
+
+#features {
+  position: relative;
+  background-color: white;
+  padding: 7% 15%;
+}
+
+/************ TESTIMONIAL SECTION ************/
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .testimonial-image {
@@ -99,18 +155,47 @@ h2 {
   margin: 20px;
 }
 
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+}
+
+/************ PRESS SECTION ************/
+
 .pressLogo {
   width: 14%;
   margin: 20px 20px 45px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
+#press {
+  padding-bottom: 3%;
+  background-color: #ef8172;
+  color: white;
+}
+
+/************ PRICING SECTION ************/
+
+.priceHeader {
+  font-size: 2.5rem;
+  line-height: 1.5;
 }
 
 .pricingColumn {
   padding: 3% 2%;
 }
+
+#pricing {
+  padding: 100px;
+}
+
+/************ CALL TO ACTION SECTION ************/
+
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 20%;
+}
+
+/************ FOOTER SECTION ************/
 
 .footerSM span {
   margin: 0 8px 3px;
@@ -120,69 +205,8 @@ h2 {
   color: black;
 }
 
-/*********** ID STYLING ***********/
-
-#title {
-  background-color: #ff4c68;
-  color: white;
-}
-
-#navbar {
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-bottom: 4.5rem;
-}
-
-#features {
-  position: relative;
-  background-color: white;
-  padding: 7% 15%;
-  text-align: center;
-}
-
-#features h3 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  font-size: 1.5rem;
-}
-
-#features p {
-  color: #8f8f8f;
-}
-
-#testimonials {
-  text-align: center;
-  background-color: #ef8172;
-  color: white;
-}
-
-#press {
-  padding-bottom: 3%;
-  text-align: center;
-  background-color: #ef8172;
-  color: white;
-}
-
-#pricing {
-  padding: 100px;
-  text-align: center;
-}
-
-#cta {
-  background-color: #ff4c68;
-  text-align: center;
-  padding: 7% 20%;
-}
-
-#cta h3 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  color: white;
-}
-
 #footer {
   background-color: white;
-  text-align: center;
   padding: 10% 10% 5%;
   color: #8f8f8f;
 }
