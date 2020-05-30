@@ -11,18 +11,23 @@ h1 {
   font-family: "Sacramento", cursive;
   font-size: 5rem;
   color: #05373a;
+  font-weight: bold;
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.8rem;
-
+  font-size: 2.1rem;
+  font-weight: bold;
   color: #11999e;
 }
 
 h3 {
   font-family: "Montserrat", sans-serif;
   color: #66bfbf;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -51,7 +56,7 @@ hr {
 }
 
 .bottom-container {
-  background-color: #8ccbbe;
+  background-color: #e4e4e4;
 }
 
 .introText {
@@ -162,7 +167,7 @@ hr {
 }
 
 .contact-me {
-  padding-bottom: 30px;
+  padding-top: 5%;
 }
 
 .bottom-container {
@@ -186,6 +191,7 @@ hr {
 
 .welcomeMessage {
   width: 55%;
+  padding-top: 2%;
   margin: 50px auto 70px auto;
   text-align: center;
   line-height: 2;
@@ -291,6 +297,15 @@ hr {
 
 .credits {
   line-height: 1rem;
+}
+
+.demoProjects {
+  background-color: #8ccbbe;
+  padding: 5%;
+}
+
+.demoImage {
+  width: 70%;
 }
 
 /************* ID STYLES *************/

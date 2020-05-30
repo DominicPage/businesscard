@@ -1,0 +1,188 @@
+/*********** GENERAL CSS STYLING ***********/
+/* GOOGLE FONT FAMILIES
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+*/
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*********** CLASS STYLING ***********/
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navbar .navbar-expand-lg .navbar-dark {
+  padding-left: 0px;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light", sans-serif;
+}
+
+.downloadButton {
+  margin: 5% 3% 5% 0;
+}
+
+.tImage {
+  text-align: left;
+}
+
+.titleImage {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  z-index: 0;
+  right: 30%;
+}
+
+@media (max-width: 1028px) {
+  .titleImage {
+    transform: rotate(0deg);
+    position: static;
+  }
+
+  .tImage {
+    text-align: center;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+.featureRow {
+  text-align: center;
+}
+
+.featureIcon {
+  color: #ef8172;
+  padding-bottom: 7%;
+}
+
+.featureIcon:hover {
+  padding-top: 50px;
+  padding-bottom: 25px;
+  color: #ff4c68;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.pressLogo {
+  width: 14%;
+  margin: 20px 20px 45px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.pricingColumn {
+  padding: 3% 2%;
+}
+
+.footerSM span {
+  margin: 0 8px 3px;
+}
+
+.footerSM span:hover {
+  color: black;
+}
+
+/*********** ID STYLING ***********/
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+#navbar {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 4.5rem;
+}
+
+#features {
+  position: relative;
+  background-color: white;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+#features h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#features p {
+  color: #8f8f8f;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+#press {
+  padding-bottom: 3%;
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 20%;
+}
+
+#cta h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+#footer {
+  background-color: white;
+  text-align: center;
+  padding: 10% 10% 5%;
+  color: #8f8f8f;
+}
