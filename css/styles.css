@@ -101,7 +101,7 @@ hr {
 .introTitle {
   color: #e4e4e4;
   font-weight: normal;
-  line-height: 1.5rem;
+  line-height: 2rem;
   margin-bottom: 50px;
 }
 
@@ -213,6 +213,13 @@ hr {
 
 .demoImage {
   width: 70%;
+}
+
+.beyoutyLogo {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 385px;
+  height: 335px;
 }
 
 /************* CONTACT SECTION *************/
